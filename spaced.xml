@@ -1,0 +1,21 @@
+<manifest>
+	<!-- Remotes -->
+	<remote name="origin" fetch="https://github.com/realme-spaced" revision="lineage-20-c10" />
+
+	<!-- Device -->
+	<project path="android/device/realme/spaced" name="android_device_realme_spaced" remote="origin" />
+
+	<!-- Hardware -->
+	<project path="hardware/mediatek" name="android_hardware_mediatek" remote="origin" />
+	<project path="hardware/oplus" name="android_hardware_oplus" remote="origin" />
+	<project path="hardware/mediatek_wlan" name="android_hardware_mediatek_wlan" remote="origin" />
+	
+	<!-- Kernel -->
+	<project path="kernel/realme/mt6781" name="android_kernel_realme_mt6781" remote="origin" />
+
+	<!-- Packages -->
+	<project path="packages/apps/KProfiles" name="android_packages_apps_Kprofiles" remote="origin" />
+
+	<!-- Prebuilts -->
+	<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="origin" />
+</manifest>
