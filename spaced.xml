@@ -4,6 +4,7 @@
 
 	<!-- Device -->
 	<project path="device/realme/spaced" name="android_device_realme_spaced" remote="origin" />
+	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="origin" />
 
 	<!-- Hardware -->
 	<project path="hardware/mediatek" name="android_hardware_mediatek" remote="origin" />
