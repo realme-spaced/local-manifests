@@ -1,22 +1,22 @@
 <manifest>
 	<!-- Remotes -->
-	<remote name="origin" fetch="https://github.com/realme-spaced" revision="lineage-20-c10" />
+	<remote name="origin" fetch="https://github.com/realme-spaced" />
 
 	<!-- Device -->
-	<project path="device/realme/spaced" name="android_device_realme_spaced" remote="origin" />
-	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="origin" />
+	<project path="device/realme/spaced" name="android_device_realme_spaced" remote="origin" revision="lineage-20-c10" />
+	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="origin" revision="lineage-20" />
 
 	<!-- Hardware -->
-	<project path="hardware/mediatek" name="android_hardware_mediatek" remote="origin" />
-	<project path="hardware/oplus" name="android_hardware_oplus" remote="origin" />
-	<project path="hardware/mediatek_wlan" name="android_hardware_mediatek_wlan" remote="origin" />
+	<project path="hardware/mediatek" name="android_hardware_mediatek" remote="origin" revision="lineage-20" />
+	<project path="hardware/oplus" name="android_hardware_oplus" remote="origin" revision="lineage-20" />
+	<project path="hardware/mediatek_wlan" name="android_hardware_mediatek_wlan" remote="origin" revision="lineage-20" />
 	
 	<!-- Kernel -->
-	<project path="kernel/realme/mt6781" name="android_kernel_realme_mt6781" remote="origin" />
+	<project path="kernel/realme/mt6781" name="android_kernel_realme_mt6781" remote="origin" revision="4.19" />
 
 	<!-- Packages -->
-	<project path="packages/apps/KProfiles" name="android_packages_apps_Kprofiles" remote="origin" />
+	<project path="packages/apps/KProfiles" name="android_packages_apps_Kprofiles" remote="origin" revision="main" />
 
 	<!-- Prebuilts -->
-	<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="origin" />
+	<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="origin" revision="main" />
 </manifest>
