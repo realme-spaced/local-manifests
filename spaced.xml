@@ -18,5 +18,5 @@
 	<project path="packages/apps/KProfiles" name="android_packages_apps_Kprofiles" remote="origin" revision="main" />
 
 	<!-- Prebuilts -->
-	<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="origin" revision="main" />
+	<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="origin" revision="master" />
 </manifest>
