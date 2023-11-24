@@ -3,7 +3,7 @@
 	<remote name="origin" fetch="https://github.com/realme-spaced" />
 
 	<!-- Device -->
-	<project path="device/realme/spaced" name="android_device_realme_spaced" remote="origin" revision="lineage-20-c10" />
+	<project path="device/realme/spaced" name="android_device_realme_spaced" remote="origin" revision="lineage-20-F04" />
 	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="origin" revision="lineage-20" />
 
 	<!-- Hardware -->
