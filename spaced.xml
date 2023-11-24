@@ -13,6 +13,7 @@
 	
 	<!-- Kernel -->
 	<project path="kernel/realme/mt6781" name="android_kernel_realme_mt6781" remote="origin" revision="4.19.191" />
+	<project path="kernel/realme/vendor" name="android_kernel_realme_vendor" remote="origin" revision="4.19.191-F04" />
 
 	<!-- Packages -->
 	<project path="packages/apps/KProfiles" name="android_packages_apps_Kprofiles" remote="origin" revision="main" />
