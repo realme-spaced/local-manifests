@@ -1,6 +1,7 @@
 <manifest>
 	<!-- Remotes -->
 	<remote name="origin" fetch="https://github.com/realme-spaced" />
+	<remote name="lineage-degoogle" fetch="https://github.com/lineage-degoogle" revision="lineage-20.0-degoogle"/>
 
 	<!-- Device -->
 	<project path="device/realme/spaced" name="android_device_realme_spaced" remote="origin" revision="lineage-20-F04" />
@@ -16,4 +17,13 @@
 
 	<!-- Packages -->
 	<project path="packages/apps/KProfiles" name="android_packages_apps_Kprofiles" remote="origin" revision="main" />
+	
+	<!-- Degoogle -->
+	<remove-project name="LineageOS/android_frameworks_base" />
+	<remove-project name="platform/packages/modules/NetworkStack" />
+	<remove-project name="platform/packages/modules/CaptivePortalLogin" />
+	<project path="frameworks/base" name="android_frameworks_base" remote="lineage-degoogle" />
+	<project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="lineage-degoogle" />
+	<project path="packages/modules/CaptivePortalLogin" name="android_packages_modules_CaptivePortalLogin" remote="lineage-degoogle" />
+
 </manifest>
